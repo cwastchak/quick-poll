@@ -18,7 +18,7 @@ public class PatientContact  {
   private String emailAddress = null;
   private String phoneNumber = null;
   public enum PreferredContactMethodEnum {
-     phone,  email,  postal mail, 
+     phone,  email,  postalmail,
   };
   private PreferredContactMethodEnum preferredContactMethod = null;
 
